@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"maps"
 	"math"
 	"slices"
 	"time"
@@ -15,6 +16,7 @@ func main() {
 	basics05()
 	basics06()
 	basics07()
+	basics08()
 }
 
 func basics01() {
@@ -244,4 +246,42 @@ func basics07() {
 		}
 	}
 	fmt.Println("2d:", twoD)
+}
+
+func basics08() {
+	fmt.Println("------------")
+
+	m := make(map[string]int)
+
+	m["k1"] = 7
+	m["k2"] = 13
+
+	fmt.Println("map:", m)
+
+	v1 := m["k1"]
+	fmt.Println("v1:", v1)
+
+	v3 := m["k3"]
+	fmt.Println("v3:", v3)
+
+	fmt.Println("len:", len(m))
+
+	delete(m, "k2")
+	fmt.Println("map:", m)
+
+	clear(m)
+	fmt.Println("map:", m)
+
+	// First value is ignored, using the blank identifier "_"
+	// Second value indicates whether the key exists or not
+	_, exists := m["k2"]
+	fmt.Println("exists:", exists)
+
+	n := map[string]int{"foo": 1, "bar": 2}
+	fmt.Println("map:", n)
+
+	n2 := map[string]int{"foo": 1, "bar": 2}
+	if maps.Equal(n, n2) {
+		fmt.Println("n == n2")
+	}
 }
