@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"maps"
 	"math"
 	"slices"
@@ -21,8 +22,26 @@ func main() {
 	basics08()
 	basics09()
 
-	// Greetings
-	message := greetings.Hello("Bob")
+	greetingsCall()
+}
+
+func greetingsCall() {
+	// Set properties of the predefined Logger, incliding
+	// the long entry prefix and a flag to disable print
+	// the time, source file, and line number.
+	log.SetPrefix("greetings: ")
+	log.SetFlags(0)
+
+	// Request a greeting message.
+	message, err := greetings.Hello("")
+	// If an error was returned, print it to the console and
+	// exit the program.
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// If no error was returned, print the returned message
+	// to tje console
 	fmt.Println(message)
 }
 
