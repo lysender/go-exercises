@@ -6,6 +6,8 @@ import (
 	"math"
 	"slices"
 	"time"
+
+	"example.com/greetings"
 )
 
 func main() {
@@ -18,6 +20,10 @@ func main() {
 	basics07()
 	basics08()
 	basics09()
+
+	// Greetings
+	message := greetings.Hello("Bob")
+	fmt.Println(message)
 }
 
 func basics01() {
