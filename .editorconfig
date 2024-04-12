@@ -11,13 +11,3 @@ insert_final_newline = true
 # Set default charset
 [*.{rs,js,ts,json,yaml,yml,xml,html,css,scss}]
 charset = utf-8
-
-# Indentation override for all JS/TS under src directory
-#[src/**.{js,jsx,ts,tsx}]
-#indent_style = space
-#indent_size = 2
-
-# Indentation override for all Go files under src directory
-[**.{go}]
-indent_style = space
-indent_size = 4

@@ -17,6 +17,7 @@ func main() {
 	basics06()
 	basics07()
 	basics08()
+	basics09()
 }
 
 func basics01() {
@@ -284,4 +285,9 @@ func basics08() {
 	if maps.Equal(n, n2) {
 		fmt.Println("n == n2")
 	}
+}
+
+func basics09() {
+	fmt.Println("------------")
+
 }
