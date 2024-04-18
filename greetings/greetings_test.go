@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-// TestHelloName calsl greetings.Hello with a nane, checking
+// TestHelloName calls greetings.Hello with a name, checking
 // for a value return value
 func TestHelloName(t *testing.T) {
 	name := "Bob"
