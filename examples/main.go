@@ -6,4 +6,5 @@ func main() {
 	fmt.Println("Hello World!")
 
 	ExampleArrays()
+	ExampleSlices()
 }

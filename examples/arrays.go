@@ -4,11 +4,11 @@ import "fmt"
 
 func ExampleArrays() {
 	fmt.Println("example -> arrays")
-	example1()
+	arraysExample1()
 	fmt.Println("example <- arrays")
 }
 
-func example1() {
+func arraysExample1() {
 	var a [5]int
 	fmt.Println("emp:", a)
 
