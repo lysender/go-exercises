@@ -7,4 +7,6 @@ func main() {
 
 	ExampleArrays()
 	ExampleSlices()
+	ExampleMaps()
+	ExampleRange()
 }

@@ -6,9 +6,10 @@ import (
 )
 
 func ExampleSlices() {
-	fmt.Println("example -> slices")
+	fmt.Println("================================")
+	fmt.Println("       example -> slices")
+	fmt.Println("================================")
 	slicesExample1()
-	fmt.Println("example <- slices")
 }
 
 func slicesExample1() {

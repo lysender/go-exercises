@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 func ExampleArrays() {
-	fmt.Println("example -> arrays")
+	fmt.Println("================================")
+	fmt.Println("       example -> arrays")
+	fmt.Println("================================")
 	arraysExample1()
-	fmt.Println("example <- arrays")
 }
 
 func arraysExample1() {
