@@ -9,4 +9,5 @@ func main() {
 	ExampleSlices()
 	ExampleMaps()
 	ExampleRange()
+	ExampleFunctions()
 }
