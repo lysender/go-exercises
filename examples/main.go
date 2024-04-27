@@ -10,4 +10,6 @@ func main() {
 	ExampleMaps()
 	ExampleRange()
 	ExampleFunctions()
+	ExampleClosures()
+	ExampleRecursion()
 }
