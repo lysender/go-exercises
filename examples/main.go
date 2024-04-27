@@ -12,4 +12,5 @@ func main() {
 	ExampleFunctions()
 	ExampleClosures()
 	ExampleRecursion()
+	ExamplePointers()
 }
