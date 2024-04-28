@@ -15,4 +15,6 @@ func main() {
 	ExamplePointers()
 	ExampleRunes()
 	ExampleStructs()
+	ExampleStructMethods()
+	ExampleInterfaces()
 }
