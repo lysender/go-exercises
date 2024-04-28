@@ -13,4 +13,5 @@ func main() {
 	ExampleClosures()
 	ExampleRecursion()
 	ExamplePointers()
+	ExampleRunes()
 }
