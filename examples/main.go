@@ -18,4 +18,5 @@ func main() {
 	ExampleStructMethods()
 	ExampleInterfaces()
 	ExampleEnums()
+	ExampleStructEmbed()
 }
